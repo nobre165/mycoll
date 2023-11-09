@@ -1,2 +1,5 @@
 ---
 # tasks file for roles/role01
+- name: Task Hello World
+  debug:
+    msg: "Hello World!"
